@@ -1,3 +1,5 @@
+# Function for splitting the dataset into training and testing samples
+
 from sklearn import datasets
 import numpy as np
 
@@ -20,5 +22,3 @@ print(X_test.shape)
 
 print(y_train.shape)
 print(y_test.shape)
-
-

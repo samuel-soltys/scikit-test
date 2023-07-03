@@ -1,3 +1,7 @@
+# K-Nearest Neighbor
+# supervised learning model (classification)
+# it counts the classes of k closest points
+# to the prediction point and then classifie it
 import numpy as np
 import pandas as pd
 from sklearn import neighbors, metrics
